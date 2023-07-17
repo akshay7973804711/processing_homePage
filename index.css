@@ -1,0 +1,183 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* position: fixed; */
+    filter: blur(.4px);
+}
+body{
+    background-color: rgb(35, 35, 38);
+}
+
+.spinner{
+    margin: -190px 550px;
+    width: 35px;
+  height: 35px;
+  border: 3px solid blue;
+  border-top: 3px solid #fff;
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
+z-index: -1;
+}
+
+@keyframes spin {
+    0%{
+        transform:  rotate(0deg);
+    }
+        100%{
+            transform: rotate(360deg);;
+        }
+    }
+
+.nav2{
+    display: flex;
+    justify-content: end;
+    color:aliceblue;
+    gap: 45px;
+    list-style: none;
+    font-weight: bold;
+    margin: 60px 150px;
+    opacity: 0.5;
+}
+.main{
+    margin: 130px 150px;
+}
+.logo{
+    margin: 20px 230px;
+}
+.ylo{
+    color: orange;
+   font-weight: bold;
+   font-size: 70px;
+opacity: 0.5;
+}
+.wht{
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+    /* opacity: 0.5; */
+}
+.wht2{
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+    opacity: 0.5;
+}
+.btn{
+    text-align: center;
+    color: white;
+    height: 40px;
+    width: 180px;
+    padding: 5px;
+    border: solid orange;
+    border-radius: 10px;
+background-color: orange;
+opacity: 0.5;
+}
+.mainbtn{
+    margin: -80px 150px;
+}
+.social{
+    gap: 20px;
+    color: white;
+    margin: 350px 90px;
+}
+
+
+/* .fa {  
+    padding: 1px;  
+  text-align: center;  
+    margin: 5px 2px;  
+    font-size: 30px;  
+    width: 50px;  
+    background-color: wheat;
+  } */
+
+.fa-facebook {  
+    background: #3B5998;  
+    color: white;  
+  }  
+  .fa-twitter {  
+    background: #55ACEE;  
+    color: white;  
+  }  
+  .fa-instagram {  
+    background: #125688;  
+    color: white;  
+  }  
+
+  .lst{
+    height: 100%;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    margin: -650px 1100px;    
+  }
+  @media (min-width:150px) and (max-width:467px) {
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: rgb(115, 115, 126);
+    }
+    .spinner{
+        margin: -350px 140px;
+        width: 25px;
+      height: 25px;
+      border: 2px solid white;
+      border-top: 2px solid #7d7ca1;
+      border-radius: 50%;
+      animation: spin 2s linear infinite;
+    }
+    @keyframes spin {
+        0%{
+            transform:  rotate(0deg);
+        }
+            100%{
+                transform: rotate(360deg);;
+            }
+        }
+        .nav2{
+          display: inline-block;
+            color:aliceblue;
+            /* gap: 45px; */
+            list-style: none;
+            font-weight: bold;
+            margin: -60px 50px;
+            opacity: 0.5;
+        }
+        .main{
+            margin: 50px 50px;
+        }
+        .logo{
+            margin: 5px 20px;
+        }
+        .btn{
+            text-align: center;
+            color: white;
+            height: 40px;
+            width: 180px;
+            padding: 5px;
+            border: solid orange;
+            border-radius: 10px;
+        background-color: orange;
+        opacity: 0.5;
+        margin-top: 120px;
+        }
+        .mainbtn{
+            margin: -80px 50px;
+        }
+        .social{
+            /* gap: 20px; */
+            color: white;
+            margin: 110px 30px;
+        }
+        .lst{
+            height: 100%;
+            width: 100%;
+            color: rgb(255, 255, 255);
+            margin: -700px 0px; 
+              
+          }
+  }
